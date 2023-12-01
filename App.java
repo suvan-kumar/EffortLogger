@@ -1,5 +1,5 @@
 //Created by Mason Musmacker
-//Used as the base of the program. Starts up at the login screen.
+//Used as the base of the program. Starts up at the login screen. Effectively is the "Main"
 package teamproject;
 
 import javafx.application.Application;
