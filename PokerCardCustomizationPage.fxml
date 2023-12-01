@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Jayashree Adivarahan -->
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.FontPosture?>
+<?import javafx.scene.text.FontWeight?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" fx:controller="teamproject.PokerCardController" style="-fx-background-color: #013220;">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Pane layoutX="570" layoutY="80" prefHeight="420.0" prefWidth="290.0" style="-fx-background-color: white; -fx-background-radius: 20; ">
+   	  	</Pane>
+       	<Label fx:id="PokerCardTitle" layoutX="358" layoutY="20" text="Poker Card Customization" style="-fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label fx:id="storyNums" layoutX="100" layoutY="100" text="storyNumsDisplay" style="-fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label fx:id="storyNames" layoutX="655" layoutY="400" text="storyNamesDisplay" style="-fx-text-fill: black; -fx-font-size: 16; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label fx:id="storyPoints" layoutX="100" layoutY="150" text="storyPointsDisplay" style="-fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label fx:id="averageStoryPoints" layoutX="690" layoutY="260" text="Average Story Points:" style="-fx-text-fill: black; -fx-font-size: 35; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label text="Average:" layoutX="670" layoutY="230" style="-fx-text-fill: black; -fx-font-size: 22; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Label text="Stories Selected:" layoutX="655" layoutY="380" style="-fx-text-fill: black; -fx-font-size: 13; -fx-font-weight: bold; -fx-font-family: 'Arial Black';"/>
+        <Button fx:id="backToDisplayPage" layoutX="450" layoutY="540" mnemonicParsing="false" text="Back to Effort Logger Display Page" onAction="#backToDisplayPage" style="-fx-text-fill: black; -fx-font-size: 16; -fx-font-weight: bold;"/>
+      	<Polygon points="0,40, 30,80, 60,40, 30,0" fill="red" layoutX="780" layoutY="400">
+      	</Polygon>
+      	<Polygon points="0,40, 30,80, 60,40, 30,0" fill="red" layoutX="593" layoutY="100">
+        </Polygon>
+      	<Button fx:id="shareButtonPop" layoutX="250" layoutY="540" onAction="#shareButton" text="Share Card" style="-fx-text-fill: black; -fx-font-size: 16; -fx-font-weight: bold;"/>
+      	
+   </children>
+</AnchorPane>
+
+      
